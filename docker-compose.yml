@@ -1,8 +1,9 @@
+--- 
+services: 
+  client: 
+    image: nginx
+    ports: 
+      - "80:80"
+    volumes: 
+      - "/src:/usr/share/nginx/html"
 version: "3"
-
-services:
-    client:
-        image: nironspot/cicd_rs
-        ports:
-            - 80:80
-
