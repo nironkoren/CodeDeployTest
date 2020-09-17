@@ -5,5 +5,5 @@ services:
     ports: 
       - "80:80"
     volumes: 
-      - "/src:/usr/share/nginx/html"
+      - "/home/ec2-user/src:/usr/share/nginx/html"
 version: "3"
