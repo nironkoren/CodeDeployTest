@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /docker-compose.yaml
+  - source: /docker-compose.yml
     destination: /home/ec2-user/
   - source: src
     destination: /home/ec2-user/src
