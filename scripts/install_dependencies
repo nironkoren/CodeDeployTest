@@ -19,3 +19,4 @@ elif [ -e ${my_link} ] ; then
 else
    sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 fi
+/usr/local/bin/docker-compose -f /home/ec2-user/docker-compose.yaml up -d
