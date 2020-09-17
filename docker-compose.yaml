@@ -2,6 +2,6 @@ version: "3"
 
 services:
     client:
-        image: nironspot/cicd_rs:latest
+        image: nironspot/cicd_rs:green
         ports:
             - 8080:80
