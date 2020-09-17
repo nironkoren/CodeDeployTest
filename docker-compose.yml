@@ -2,7 +2,7 @@ version: "3"
 
 services:
     client:
-        image: nironspot/cicd_rs:green
+        image: nironspot/cicd_rs
           volumes:
               - /src:/usr/share/nginx/html
         ports:
