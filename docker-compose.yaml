@@ -2,6 +2,6 @@ version: "3"
 
 services:
     client:
-        image: cicd_rs:latest
+        image: nironspot/cicd_rs:latest
         ports:
             - 8000:80
