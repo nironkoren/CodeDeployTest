@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo amazon-linux-extras install docker -y
+#sudo amazon-linux-extras install docker -y
 sudo service docker start
-sudo usermod -a -G docker ec2-user
+#sudo usermod -a -G docker ec2-user
 sudo docker rmi $(docker images -a -q) -f
 sudo docker pull nironspot/cicd_rs:latest
 #sudo docker tag youngstone89/bluegreen:2.0.0 bluegreen:latest
