@@ -3,5 +3,8 @@ version: "3"
 services:
     client:
         image: nironspot/cicd_rs:green
+          volumes:
+              - /src:/usr/share/nginx/html
         ports:
-            - 8080:80
+            - 80:80
+
