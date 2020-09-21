@@ -1,9 +1,7 @@
 --- 
 services: 
   client: 
-    image: nginx
+    image: nironspot/cicd_rs:green
     ports: 
       - "80:80"
-    volumes: 
-      - "/home/ec2-user/src:/usr/share/nginx/html"
 version: "3"
